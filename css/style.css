@@ -1,57 +1,43 @@
-.logo-animation-main-div {
-  width: 600px;
-  height: 400px;
-  /* border: 3px solid lightgreen; */
-  margin: 20% auto 0 auto;
-}
-
 .logo-animation-div {
   width: 550px;
-  height: 100px;
-  /* border: 1px solid red; */
+  height: 85px;
   background-color: #F7F7F7;
   padding: 10px;
+  animation: fadeIn2 2s ease-out;
+  animation-delay: 8s;
   margin: 25% auto 0 auto;
 }
 .divLeft {
   float: left;
   width: 85px;
   height: 85px;
-  /* border: 1px solid blue; */
 }
 .divRight {
   float: left;
   width: 455px;
   height: 90px;
-  /* border: 1px solid green; */
 }
 .collectionOf3 {
   float: left;
   width: 445px;
   height: 60px;
-  /* border: 1px solid orange; */
   margin-top: 25px;
 }
 .divName {
   float: left;
   width: 445px;
   height: 37px;
-  /* border: 1px solid red; */
 }
 .divChoice {
   float: left;
   width: 445px;
   height: 13px;
-  /* border: 1px solid blue; */
 }
 .divRedLine {
   float: left;
   width: 445px;
   height: 5px;
-  /* border: 1px solid maroon; */
 }
-
-
 img.circle {
   width: 85px;
   animation: rotate 6s;
@@ -71,7 +57,6 @@ img.choice {
     width: 140px;
   animation: slide 6s;
 }
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -80,7 +65,6 @@ img.choice {
     transform: rotate(3240deg);
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -89,7 +73,6 @@ img.choice {
     opacity: 1;
   }
 }
-
 @keyframes slide {
   0% {
     opacity: 0;
@@ -102,7 +85,6 @@ img.choice {
   100% {
     opacity: 1;
     margin-left: 0;
-    
   }
 }
 @keyframes slideUp {
@@ -116,20 +98,15 @@ img.choice {
   }
   100% {
     opacity: 1;
-    margin-top: 0;
-    
+    margin-top: 0; 
   }
 }
 
-
-/* @keyframes rotate {
+@keyframes fadeIn2 {
   0% {
-    transform: rotate(0deg) scale(1);
-  }
-  50% {
-    transform: rotate(200deg) scale(1.2);
+    opacity: 0;
   }
   100% {
-    transform: rotate(360deg) scale(1);
+    opacity: 1;
   }
-} */
+}
