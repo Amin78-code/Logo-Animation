@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive One Page Website</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./img/favicon.jpg">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+
+
+  <div class="logo-animation-main-div">
+    <div class="logo-animation-div">
+
+      <div class="divLeft">
+        <img src="./img/circle.jpg" class="circle" alt="">
+
+      </div>
+      <div class="divRight">  
+        <div class="collectionOf3">
+          <div class="divName">
+            <img src="./img/aero.jpg" class="aeroAndTech" alt="">
+            <img src="./img/tech.jpg" class="aeroAndTech" alt="">
+          </div>
+        <div class="divChoice">
+      <img src="./img/choice.jpg" class="choice" alt="">
+
+        </div>
+        <div class="divRedLine">
+      <img src="./img/line.jpg" class="line" alt="">
+
+        </div>
+        </div>
+      </div>
+
+      <!-- <img src="./img/circle.jpg" class="circle" alt="">
+      <img src="./img/aero.jpg" alt="">
+      <img src="./img/tech.jpg" alt="">
+      <img src="./img/choice.jpg" alt="">
+      <img src="./img/line.jpg" alt=""> -->
+    </div>
+  </div>
+
+
+
+  
+  <script>
+    var header = document.getElementById("header");
+    function toggle() {
+      header.classList.toggle('active');
+    }
+
+    var btns = header.getElementsByClassName("menu-anchors");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("btn-active");
+        current[0].className = current[0].className.replace(" btn-active", "");
+        this.className += " btn-active";
+      }
+      );
+    }
+  </script>
+</body>
+
+</html>
