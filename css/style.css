@@ -6,7 +6,7 @@
 }
 
 .logo-animation-div {
-  width: 500px;
+  width: 550px;
   height: 100px;
   /* border: 1px solid red; */
   background-color: #F7F7F7;
@@ -21,34 +21,34 @@
 }
 .divRight {
   float: left;
-  width: 395px;
+  width: 455px;
   height: 90px;
   /* border: 1px solid green; */
 }
 .collectionOf3 {
   float: left;
-  width: 395px;
-  height: 70px;
+  width: 445px;
+  height: 60px;
   /* border: 1px solid orange; */
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .divName {
   float: left;
-  width: 395px;
-  height: 30px;
-  /* border: 1px solid orange; */
+  width: 445px;
+  height: 37px;
+  /* border: 1px solid red; */
 }
 .divChoice {
   float: left;
-  width: 395px;
-  height: 20px;
-  border: 1px solid blue;
+  width: 445px;
+  height: 13px;
+  /* border: 1px solid blue; */
 }
 .divRedLine {
   float: left;
-  width: 395px;
+  width: 445px;
   height: 5px;
-  border: 1px solid maroon;
+  /* border: 1px solid maroon; */
 }
 
 
@@ -57,11 +57,12 @@ img.circle {
 }
 img.aeroAndTech {
   width: auto;
-  height: 33px;
+  height: 38px;
 }
 img.line {
-  width: 390px;
+  float: left;
+  width: 445px;
 }
-img {
-  width: 200px;
+img.choice {
+  width: 140px;
 }
